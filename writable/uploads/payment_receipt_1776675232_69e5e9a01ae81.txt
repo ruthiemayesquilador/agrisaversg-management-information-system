@@ -1,0 +1,75 @@
+Payment Receipt
+
+        * { box-sizing: border-box; }
+        body {
+            margin: 0;
+            padding: 12px;
+            font-family: 'Courier New',
+monospace;
+            font-size: 12px;
+            color: #000;
+            background: #fff;
+        }
+        .receipt {
+            width: 80mm;
+            max-width: 100%;
+            margin: 0 auto;
+        }
+        .center { text-align: center; }
+        .bold { font-weight: 700; }
+        .line { margin: 2px 0; }
+        .divider {
+            border-top: 1px dashed #000;
+            margin: 8px 0;
+        }
+        .row {
+            display: flex;
+            justify-content:
+space-between;
+            gap: 10px;
+            margin: 2px 0;
+        }
+        .small { font-size: 11px; }
+        .muted { color: #333; }
+        .allocations {
+            margin-top: 4px;
+        }
+        .alloc-item {
+            margin: 2px 0;
+        }
+        @media print {
+            body { padding: 0; }
+        }
+
+
+
+
+        AGRI SAVERS G
+        Customer Payment Receipt
+
+
+        Receipt
+No:PAY-20260420-085352-2062
+        Date:2026-04-20
+        Time:08:53 AM
+        Customer:Ezra Alforte
+                    Address:Naga City
+
+
+
+        Amount Paid:₱9.00
+        Payment Method:Cash
+        Remaining Balance:₱219.00
+
+
+
+            Applied To Sales
+
+
+RCP-20260420-0036₱9.00
+
+
+
+        THANK YOU
+        Payment has been recorded against
+customer sales.
